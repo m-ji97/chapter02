@@ -27,7 +27,7 @@ public class Goods {
 	//메소드-일반
 	public void showInfo() {
 		System.out.println("=======================================");
-		System.out.println("상품명"+this.name+"   가격:"+this.price);
+		System.out.println("상품명: "+this.name+"   가격: "+this.price);
 		System.out.println("=======================================");
 	}
 	
