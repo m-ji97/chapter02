@@ -61,7 +61,19 @@ public class Song {
 	}
 
 	// 메소드-일반
+
+	//테스트
+	/*
+	 public String toString() {
+
+		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", compuser=" + compuser + ", year="
+				+ year + ", track=" + track + "]";
+	 */
+
 	public void showinfo() {
 		System.out.println(this.artist+", "+this.title+"("+this.album+", "+this.year+", "+this.track+"번 track, "+this.compuser+" 작곡 )");
 	}
+
+
 }
+

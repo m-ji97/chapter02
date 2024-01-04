@@ -10,6 +10,9 @@ public class SongApp {
 		s1.setTrack(3);
 		s1.setCompuser("이민수");
 		
+		//테스트
+		//System.out.println(s1.toString());
+		
 		Song s2 = new Song();
 		s2.setAlbum("Always");
 		s2.setArtist("BIGBANG");
