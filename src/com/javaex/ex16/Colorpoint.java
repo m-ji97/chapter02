@@ -7,6 +7,8 @@ public class Colorpoint extends Point {
 
 	//생성자
 	public Colorpoint() {
+		//super()
+		System.out.println("Colorpoint()");
 	}
 
 
@@ -29,10 +31,9 @@ public class Colorpoint extends Point {
 		super.setX(x);
 		super.setY(y);
 		this.color = color;
-
-		//메소드-GS
+		System.out.println("Colorpoint(3)");
 	}
-
+		//메소드-GS
 	public String getColor() {
 		return color;
 	}
@@ -46,8 +47,8 @@ public class Colorpoint extends Point {
 	public String toString() {
 		return "Colorpoint [color=" + color + "]";
 	}
-	public String print() {
-		
+	public void draw() {
+		System.out.println("점[x="+super.x+", y="+super.y+" 색="+this.color+"]을 그렸습니다.");
 	}
 
 	

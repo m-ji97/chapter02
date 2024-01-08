@@ -9,17 +9,18 @@ public class Person {
 	
 	//생성자
 	public Person() {
-		
+		System.out.println("Person()");
 	}
 	
 	public Person(String name, int age) {
+		//자신의 메모리에 올린다
 		this.name = name;
 		this.age = age;
+		System.out.println("Person(2)");
 	}
 	//메소드 gs
 	public String getName() {
 		return name;
-
 	}
 	public void setName(String name) {
 		this.name = name;
@@ -35,11 +36,6 @@ public class Person {
 	@Override
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + "]";
-	}
-	public void showinfo() {
-		System.out.println("========================");
-		System.out.println("이름: "+this.name+", 나이: "+this,age);
-		System.out.println("========================");
 	}
 
 }
