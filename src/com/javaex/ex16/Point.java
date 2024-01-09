@@ -4,7 +4,7 @@ public class Point {
 	
 	//필드
 	protected int x;
-	private int y;
+	protected int y; //private int y;??????
 	
 	//생성자
 	public Point() {
