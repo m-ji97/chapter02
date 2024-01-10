@@ -1,6 +1,6 @@
-package com.javaex.ex19;
+package com.javaex.ex20;
 
-public class Shape {
+public abstract class Shape {
 	
 	//필드
 	private String fillcolor;
@@ -37,8 +37,11 @@ public class Shape {
 	public String toString() {
 		return "Shape [fillcolor=" + fillcolor + ", linecolor=" + linecolor + "]";
 	}
-	public void draw() {
-		System.out.println("Shape.draw()");
-	}
+	//draw() X
+	public abstract void draw();
+	
+	//면적구하는 메소드
+	public abstract double area();
+	
 
 }
